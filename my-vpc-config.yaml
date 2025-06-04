@@ -1,5 +1,5 @@
 template-file-path: templates/my-vpc-demo.yaml
 parameters: 
-  VpcName: git-demo-1
+  VpcName: git-demo-2
 tags:
   env: test
