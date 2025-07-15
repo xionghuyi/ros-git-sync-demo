@@ -1,0 +1,4 @@
+template-file-path: templates/terraform
+parameters: 
+  instance_type: ecs.e-c1m2.large
+  count: 1
