@@ -1,3 +1,3 @@
-output "public_ip" {
-    value = alicloud_instance.instance.public_ip
+output "public_ips" {
+    value = alicloud_instance.instance[*].public_ip
 }
